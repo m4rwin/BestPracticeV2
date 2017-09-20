@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Event
+{
+	public interface ISpy
+	{
+		event EventHandler StartListening;
+		//event EventHandler<string> Listener;
+	}
+}
